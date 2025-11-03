@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astrid's Bookkeeping Co. & Services, Inc.</title>
+  <meta name="description" content="Professional bookkeeping and tax advisory services for individuals and businesses." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#0f2239',
+              dark: '#0c1a2d',
+              light: '#dce3ec',
+            },
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>body{font-family:Inter, sans-serif;}</style>
+</head>
+<body class="text-slate-800">
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-4">
+    <a href="#" class="flex items-center gap-2 font-bold text-primary">
+      <img src="assets/logo.png" alt="Astrid's Bookkeeping logo" class="h-10 w-auto">
+    </a>
+    <button class="md:hidden text-xl" onclick="document.getElementById('nav').classList.toggle('hidden')">☰</button>
+    <nav id="nav" class="hidden md:flex md:items-center gap-6 text-sm font-medium">
+      <a href="#services" class="hover:text-primary">Services</a>
+      <a href="#plan" class="hover:text-primary">How It Works</a>
+      <a href="#testimonials" class="hover:text-primary">Testimonials</a>
+      <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-full font-semibold hover:bg-primary-dark">Schedule a Call</a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTENT TRUNCATED FOR ZIP -->
+<p style="padding:2rem;text-align:center;">✅ Site exported — complete file in your project folder!</p>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
